@@ -20,7 +20,7 @@ interface ModuleProps {
 
 function Module(props: ModuleProps) {
   const { module } = props;
-  const docUrl = "/x/" + module.name;
+  const docUrl = "/" + module.name;
   return (
     <div>
       <h2>{module.name}</h2>
