@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "dev": "fresh manifest && deno run --watch --allow-net --no-check --allow-env --allow-read --allow-write --allow-run main.ts",
+    "prod": "deno run --allow-net main.ts"
+  },
+  "importMap": "./import_map.json"
+}
