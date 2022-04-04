@@ -25,6 +25,8 @@ function Module(props: ModuleProps) {
     <div>
       <h2>{module.name}</h2>
       <p>
+        <script> import * as {module.name} from https://roeh.deno.dev/{module.name}  </script>
+
         <a href={module.url}>src</a>
         <br/>
         <a href={docUrl}>doc</a>
