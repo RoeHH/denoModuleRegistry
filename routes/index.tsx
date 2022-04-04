@@ -25,7 +25,7 @@ function Module(props: ModuleProps) {
     <div>
       <h2>{module.name}</h2>
       <p>
-        <p> import * as {module.name} from https://roeh.deno.dev/{module.name}  </p>
+        <p>import * as {module.name} from "https://roeh.deno.dev/{module.name}"  </p>
 
         <a href={module.url}>src</a>
         <br/>
