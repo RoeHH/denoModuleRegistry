@@ -1,7 +1,7 @@
 /** @jsx h */
-import { h, PageProps } from "~/client_deps.ts";
-import Home from "~/routes/index.tsx";
-import modules from "~/data/modules.json" assert { type: "json" };
+import { h, PageProps } from "../client_deps.ts";
+import Home from "./index.tsx";
+import modules from "../data/modules.json" assert { type: "json" };
 
 export const handler = {
   GET(req: { headers: { get: (arg0: string) => string } }, props: PageProps) {
